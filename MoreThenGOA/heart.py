@@ -4,7 +4,7 @@ t = turtle.Turtle()
 t.screen.bgcolor('black')
 t.left(90)
 t.backward(100)
-t.speed(100)
+t.speed(9999999999999999999999999999999999999999999999999999999999999999999999999999999999999)
 t.shape('turtle')
 
 def tree(i):
