@@ -75,26 +75,7 @@
 
          </center>
       </form>
-      <p id="result"></p>
-
-<script>
-  const form = document.getElementById('quizForm');
-  const result = document.getElementById('result');
-
-  form.addEventListener('submit', function(e) {
-    e.preventDefault(); // არ გავაგზავნოთ ფორმა სერვერზე
-
-    const selected = document.querySelector('input[name="question1"]:checked').value;
-
-    if (selected === "HyperText markup_language") {
-      result.textContent = "სწორია ✅";
-      result.style.color = "green";
-    } else {
-      result.textContent = "არასწორია ❌";
-      result.style.color = "red";
-    }
-  });
-</script>
+      
     <br><br><br><br><br><br><br><br><br><br><br><br>
     <!-- 4 -->
      <form>
